@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14F2D599807CBE274819C332 /* Pods_BidmadOpenInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF05674794CD32C3E3EF0B8 /* Pods_BidmadOpenInterface.framework */; };
+		26A476582755BA470019A736 /* BidmadBannerAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A476572755BA470019A736 /* BidmadBannerAd.swift */; };
+		26A4765A2755BAAD0019A736 /* BidmadAdStandard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A476592755BAAD0019A736 /* BidmadAdStandard.swift */; };
+		26A4765B2755D1860019A736 /* BidmadOpenInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26AA98E62754C5C00063F709 /* BidmadOpenInterface.framework */; };
+		26A4765C2755D1860019A736 /* BidmadOpenInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26AA98E62754C5C00063F709 /* BidmadOpenInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26A476602755D2DB0019A736 /* Pods_BidmadOpenInterfaceExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4285DFC0E5D20183B64416 /* Pods_BidmadOpenInterfaceExamples.framework */; };
+		26A476632755EDB40019A736 /* BidmadInterstitialAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A476622755EDB40019A736 /* BidmadInterstitialAd.swift */; };
+		26A476652755F6110019A736 /* BidmadRewardAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A476642755F6110019A736 /* BidmadRewardAd.swift */; };
+		26A476672755FE2A0019A736 /* BidmadRewardIntersitialAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A476662755FE2A0019A736 /* BidmadRewardIntersitialAd.swift */; };
+		26A47669275600CA0019A736 /* BidmadAppOpenAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A47668275600CA0019A736 /* BidmadAppOpenAd.swift */; };
+		26A4766B275606620019A736 /* BidmadOfferwallAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A4766A275606620019A736 /* BidmadOfferwallAd.swift */; };
+		26A4766D275615480019A736 /* BidmadBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A4766C275615480019A736 /* BidmadBannerView.swift */; };
 		26AA98EB2754C5C00063F709 /* BidmadOpenInterface.docc in Sources */ = {isa = PBXBuildFile; fileRef = 26AA98EA2754C5C00063F709 /* BidmadOpenInterface.docc */; };
 		26AA98F12754C5C00063F709 /* BidmadOpenInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26AA98E62754C5C00063F709 /* BidmadOpenInterface.framework */; };
 		26AA98F62754C5C00063F709 /* BidmadOpenInterfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA98F52754C5C00063F709 /* BidmadOpenInterfaceTests.swift */; };
@@ -17,9 +29,17 @@
 		26AA990E2754C5DB0063F709 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AA990C2754C5DB0063F709 /* Main.storyboard */; };
 		26AA99102754C5DD0063F709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26AA990F2754C5DD0063F709 /* Assets.xcassets */; };
 		26AA99132754C5DD0063F709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AA99112754C5DD0063F709 /* LaunchScreen.storyboard */; };
+		D1E9CF418F2B7A0FCDE4AA1B /* Pods_BidmadOpenInterface_BidmadOpenInterfaceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3D791EA864CECE794CF585 /* Pods_BidmadOpenInterface_BidmadOpenInterfaceTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		26A4765D2755D1860019A736 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26AA98DD2754C5C00063F709 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26AA98E52754C5C00063F709;
+			remoteInfo = BidmadOpenInterface;
+		};
 		26AA98F22754C5C00063F709 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 26AA98DD2754C5C00063F709 /* Project object */;
@@ -29,7 +49,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		26A4765F2755D1860019A736 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				26A4765C2755D1860019A736 /* BidmadOpenInterface.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		26A476572755BA470019A736 /* BidmadBannerAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidmadBannerAd.swift; sourceTree = "<group>"; };
+		26A476592755BAAD0019A736 /* BidmadAdStandard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidmadAdStandard.swift; sourceTree = "<group>"; };
+		26A476622755EDB40019A736 /* BidmadInterstitialAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidmadInterstitialAd.swift; sourceTree = "<group>"; };
+		26A476642755F6110019A736 /* BidmadRewardAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidmadRewardAd.swift; sourceTree = "<group>"; };
+		26A476662755FE2A0019A736 /* BidmadRewardIntersitialAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidmadRewardIntersitialAd.swift; sourceTree = "<group>"; };
+		26A47668275600CA0019A736 /* BidmadAppOpenAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidmadAppOpenAd.swift; sourceTree = "<group>"; };
+		26A4766A275606620019A736 /* BidmadOfferwallAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidmadOfferwallAd.swift; sourceTree = "<group>"; };
+		26A4766C275615480019A736 /* BidmadBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidmadBannerView.swift; sourceTree = "<group>"; };
 		26AA98E62754C5C00063F709 /* BidmadOpenInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BidmadOpenInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AA98E92754C5C00063F709 /* BidmadOpenInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BidmadOpenInterface.h; sourceTree = "<group>"; };
 		26AA98EA2754C5C00063F709 /* BidmadOpenInterface.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = BidmadOpenInterface.docc; sourceTree = "<group>"; };
@@ -43,6 +85,15 @@
 		26AA990F2754C5DD0063F709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26AA99122754C5DD0063F709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26AA99142754C5DD0063F709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DDAA56B4BA7797BC85AAB88 /* Pods-BidmadOpenInterface.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BidmadOpenInterface.debug.xcconfig"; path = "Target Support Files/Pods-BidmadOpenInterface/Pods-BidmadOpenInterface.debug.xcconfig"; sourceTree = "<group>"; };
+		6CF05674794CD32C3E3EF0B8 /* Pods_BidmadOpenInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BidmadOpenInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		842010ED93986261A2F776A9 /* Pods-BidmadOpenInterface-BidmadOpenInterfaceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BidmadOpenInterface-BidmadOpenInterfaceTests.release.xcconfig"; path = "Target Support Files/Pods-BidmadOpenInterface-BidmadOpenInterfaceTests/Pods-BidmadOpenInterface-BidmadOpenInterfaceTests.release.xcconfig"; sourceTree = "<group>"; };
+		91EB4708DCBB87C368CDCD7F /* Pods-BidmadOpenInterfaceExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BidmadOpenInterfaceExamples.release.xcconfig"; path = "Target Support Files/Pods-BidmadOpenInterfaceExamples/Pods-BidmadOpenInterfaceExamples.release.xcconfig"; sourceTree = "<group>"; };
+		C55539AF750E0B23653B93D1 /* Pods-BidmadOpenInterface-BidmadOpenInterfaceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BidmadOpenInterface-BidmadOpenInterfaceTests.debug.xcconfig"; path = "Target Support Files/Pods-BidmadOpenInterface-BidmadOpenInterfaceTests/Pods-BidmadOpenInterface-BidmadOpenInterfaceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE4285DFC0E5D20183B64416 /* Pods_BidmadOpenInterfaceExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BidmadOpenInterfaceExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3D791EA864CECE794CF585 /* Pods_BidmadOpenInterface_BidmadOpenInterfaceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BidmadOpenInterface_BidmadOpenInterfaceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B3C03CD79B7C3DA20B0924 /* Pods-BidmadOpenInterface.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BidmadOpenInterface.release.xcconfig"; path = "Target Support Files/Pods-BidmadOpenInterface/Pods-BidmadOpenInterface.release.xcconfig"; sourceTree = "<group>"; };
+		F5B390EAD4E6A3007B5BD559 /* Pods-BidmadOpenInterfaceExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BidmadOpenInterfaceExamples.debug.xcconfig"; path = "Target Support Files/Pods-BidmadOpenInterfaceExamples/Pods-BidmadOpenInterfaceExamples.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14F2D599807CBE274819C332 /* Pods_BidmadOpenInterface.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +110,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26AA98F12754C5C00063F709 /* BidmadOpenInterface.framework in Frameworks */,
+				D1E9CF418F2B7A0FCDE4AA1B /* Pods_BidmadOpenInterface_BidmadOpenInterfaceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +118,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26A476602755D2DB0019A736 /* Pods_BidmadOpenInterfaceExamples.framework in Frameworks */,
+				26A4765B2755D1860019A736 /* BidmadOpenInterface.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +133,8 @@
 				26AA98F42754C5C00063F709 /* BidmadOpenInterfaceTests */,
 				26AA99052754C5DB0063F709 /* BidmadOpenInterfaceExamples */,
 				26AA98E72754C5C00063F709 /* Products */,
+				5796D679B155CC07C8268E35 /* Pods */,
+				D8A0B860D142A158D3DF839A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +152,14 @@
 			isa = PBXGroup;
 			children = (
 				26AA98E92754C5C00063F709 /* BidmadOpenInterface.h */,
+				26A4766C275615480019A736 /* BidmadBannerView.swift */,
+				26A476572755BA470019A736 /* BidmadBannerAd.swift */,
+				26A476622755EDB40019A736 /* BidmadInterstitialAd.swift */,
+				26A476642755F6110019A736 /* BidmadRewardAd.swift */,
+				26A476662755FE2A0019A736 /* BidmadRewardIntersitialAd.swift */,
+				26A47668275600CA0019A736 /* BidmadAppOpenAd.swift */,
+				26A4766A275606620019A736 /* BidmadOfferwallAd.swift */,
+				26A476592755BAAD0019A736 /* BidmadAdStandard.swift */,
 				26AA98EA2754C5C00063F709 /* BidmadOpenInterface.docc */,
 			);
 			path = BidmadOpenInterface;
@@ -122,6 +187,29 @@
 			path = BidmadOpenInterfaceExamples;
 			sourceTree = "<group>";
 		};
+		5796D679B155CC07C8268E35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DDAA56B4BA7797BC85AAB88 /* Pods-BidmadOpenInterface.debug.xcconfig */,
+				F4B3C03CD79B7C3DA20B0924 /* Pods-BidmadOpenInterface.release.xcconfig */,
+				C55539AF750E0B23653B93D1 /* Pods-BidmadOpenInterface-BidmadOpenInterfaceTests.debug.xcconfig */,
+				842010ED93986261A2F776A9 /* Pods-BidmadOpenInterface-BidmadOpenInterfaceTests.release.xcconfig */,
+				F5B390EAD4E6A3007B5BD559 /* Pods-BidmadOpenInterfaceExamples.debug.xcconfig */,
+				91EB4708DCBB87C368CDCD7F /* Pods-BidmadOpenInterfaceExamples.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D8A0B860D142A158D3DF839A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CF05674794CD32C3E3EF0B8 /* Pods_BidmadOpenInterface.framework */,
+				DF3D791EA864CECE794CF585 /* Pods_BidmadOpenInterface_BidmadOpenInterfaceTests.framework */,
+				CE4285DFC0E5D20183B64416 /* Pods_BidmadOpenInterfaceExamples.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -140,10 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26AA98FA2754C5C00063F709 /* Build configuration list for PBXNativeTarget "BidmadOpenInterface" */;
 			buildPhases = (
+				0CAFEA98F61CBE8FE13B4251 /* [CP] Check Pods Manifest.lock */,
 				26AA98E12754C5C00063F709 /* Headers */,
 				26AA98E22754C5C00063F709 /* Sources */,
 				26AA98E32754C5C00063F709 /* Frameworks */,
 				26AA98E42754C5C00063F709 /* Resources */,
+				F1CE00ABEA389B7D6F60D19A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26AA98FD2754C5C00063F709 /* Build configuration list for PBXNativeTarget "BidmadOpenInterfaceTests" */;
 			buildPhases = (
+				43827EF3E3874B0E5937F096 /* [CP] Check Pods Manifest.lock */,
 				26AA98EC2754C5C00063F709 /* Sources */,
 				26AA98ED2754C5C00063F709 /* Frameworks */,
 				26AA98EE2754C5C00063F709 /* Resources */,
+				4EC36029048653E2402AFA15 /* [CP] Embed Pods Frameworks */,
+				0C116E39DE48736DF469A5C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,13 +269,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26AA99152754C5DD0063F709 /* Build configuration list for PBXNativeTarget "BidmadOpenInterfaceExamples" */;
 			buildPhases = (
+				0A5166CA7082F75CA80C8FCC /* [CP] Check Pods Manifest.lock */,
 				26AA99002754C5DB0063F709 /* Sources */,
 				26AA99012754C5DB0063F709 /* Frameworks */,
 				26AA99022754C5DB0063F709 /* Resources */,
+				65B28700C2133CF07EEA8058 /* [CP] Embed Pods Frameworks */,
+				26A4765F2755D1860019A736 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				26A4765E2755D1860019A736 /* PBXTargetDependency */,
 			);
 			name = BidmadOpenInterfaceExamples;
 			productName = BidmadOpenInterfaceExamples;
@@ -257,12 +354,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A5166CA7082F75CA80C8FCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BidmadOpenInterfaceExamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C116E39DE48736DF469A5C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BidmadOpenInterface-BidmadOpenInterfaceTests/Pods-BidmadOpenInterface-BidmadOpenInterfaceTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BidmadOpenInterface-BidmadOpenInterfaceTests/Pods-BidmadOpenInterface-BidmadOpenInterfaceTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BidmadOpenInterface-BidmadOpenInterfaceTests/Pods-BidmadOpenInterface-BidmadOpenInterfaceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0CAFEA98F61CBE8FE13B4251 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BidmadOpenInterface-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43827EF3E3874B0E5937F096 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BidmadOpenInterface-BidmadOpenInterfaceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EC36029048653E2402AFA15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BidmadOpenInterface-BidmadOpenInterfaceTests/Pods-BidmadOpenInterface-BidmadOpenInterfaceTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BidmadOpenInterface-BidmadOpenInterfaceTests/Pods-BidmadOpenInterface-BidmadOpenInterfaceTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BidmadOpenInterface-BidmadOpenInterfaceTests/Pods-BidmadOpenInterface-BidmadOpenInterfaceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65B28700C2133CF07EEA8058 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BidmadOpenInterfaceExamples/Pods-BidmadOpenInterfaceExamples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BidmadOpenInterfaceExamples/Pods-BidmadOpenInterfaceExamples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BidmadOpenInterfaceExamples/Pods-BidmadOpenInterfaceExamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1CE00ABEA389B7D6F60D19A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BidmadOpenInterface/Pods-BidmadOpenInterface-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BidmadOpenInterface/Pods-BidmadOpenInterface-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BidmadOpenInterface/Pods-BidmadOpenInterface-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		26AA98E22754C5C00063F709 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				26AA98EB2754C5C00063F709 /* BidmadOpenInterface.docc in Sources */,
+				26A4766D275615480019A736 /* BidmadBannerView.swift in Sources */,
+				26A476582755BA470019A736 /* BidmadBannerAd.swift in Sources */,
+				26A4766B275606620019A736 /* BidmadOfferwallAd.swift in Sources */,
+				26A476652755F6110019A736 /* BidmadRewardAd.swift in Sources */,
+				26A4765A2755BAAD0019A736 /* BidmadAdStandard.swift in Sources */,
+				26A47669275600CA0019A736 /* BidmadAppOpenAd.swift in Sources */,
+				26A476632755EDB40019A736 /* BidmadInterstitialAd.swift in Sources */,
+				26A476672755FE2A0019A736 /* BidmadRewardIntersitialAd.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +529,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		26A4765E2755D1860019A736 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26AA98E52754C5C00063F709 /* BidmadOpenInterface */;
+			targetProxy = 26A4765D2755D1860019A736 /* PBXContainerItemProxy */;
+		};
 		26AA98F32754C5C00063F709 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 26AA98E52754C5C00063F709 /* BidmadOpenInterface */;
@@ -438,6 +685,7 @@
 		};
 		26AA98FB2754C5C00063F709 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DDAA56B4BA7797BC85AAB88 /* Pods-BidmadOpenInterface.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -466,6 +714,7 @@
 		};
 		26AA98FC2754C5C00063F709 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4B3C03CD79B7C3DA20B0924 /* Pods-BidmadOpenInterface.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -494,7 +743,9 @@
 		};
 		26AA98FE2754C5C00063F709 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55539AF750E0B23653B93D1 /* Pods-BidmadOpenInterface-BidmadOpenInterfaceTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MWF8UC94P5;
@@ -515,7 +766,9 @@
 		};
 		26AA98FF2754C5C00063F709 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 842010ED93986261A2F776A9 /* Pods-BidmadOpenInterface-BidmadOpenInterfaceTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MWF8UC94P5;
@@ -536,6 +789,7 @@
 		};
 		26AA99162754C5DD0063F709 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B390EAD4E6A3007B5BD559 /* Pods-BidmadOpenInterfaceExamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -564,6 +818,7 @@
 		};
 		26AA99172754C5DD0063F709 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91EB4708DCBB87C368CDCD7F /* Pods-BidmadOpenInterfaceExamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
